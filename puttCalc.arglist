@@ -1,0 +1,14 @@
+cfn:FILENAME:0:"config file":"The config file":""
+fn:STRING:0:"file name":"File name for single movie file":"."
+patt:STRING:0:"file pattern":"Pattern for image files":"."
+campatt:STRING:0:"camera file pattern":"Pattern for camera files":"."
+cam:STRING:0:"camera file":"File for static camera parameter":""
+start:INT:0:"start":"First image number":0:0:1000000
+end:INT:0:"end":"Last image number":0:0:1000000
+inc:INT:0:"increment":"Increment image number":1:1:1000000
+fmt:INT:0:"file format (1= raw (RGB), 2= raw (BGR), 3= YCbCr)":"file format (1= raw)":2:0:3
+filt:INT:0:"filter for YUV conversion: 0=no, 1=2-tab, 2=4-tab, 3=6-tab":"":0:0:3
+dx:INT:0:"image width for raw file formats":"image width for raw file formats":704:0:1000000
+dy:INT:0:"image height for raw file formats":"image height for raw file formats":576:0:1000000
+outpatt:STRING:0:"output file pattern":"Pattern for image files":"."
+deint:INT:0:"Deinterlace video: 0=no, 1=field 1 up, 2=field 1+2":"":0:0:3
