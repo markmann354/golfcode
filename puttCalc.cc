@@ -5,7 +5,7 @@
 
 #include	<stdlib.h>
 #include	<string.h>
-#include	"Picture.h"
+#include	$(VPLIBSHOME)/VPbase/Picture.h
 #include	"puttCalc.h"
 #include	"PicReadFileSeq.h"
 #include	"WriteImage.h"

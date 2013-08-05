@@ -31,7 +31,7 @@ LIBCXXOBJ +=
 #USE_SIFT=1
 
 ## global config file
-include	$(VPLIBSHOME)/etc/Config.mk
+#include	$(VPLIBSHOME)/etc/Config.mk
 
 ##
 ## VPlibs module configuration. Uncomment the packages you need
@@ -44,13 +44,13 @@ include	$(VPLIBSHOME)/etc/Config.mk
 #include $(VPLIBSHOME)/VPtexturing/etc/Config.mk
 #include $(VPLIBSHOME)/VPgeom/etc/Config.mk
 #include $(VPLIBSHOME)/VPimageproc/etc/Config.mk
-include $(VPLIBSHOME)/VPip/etc/Config.mk
+#include $(VPLIBSHOME)/VPip/etc/Config.mk
 #include $(VPLIBSHOME)/VPutil/etc/Config.mk
-include $(VPLIBSHOME)/VPcoreio/etc/Config.mk
-include $(VPLIBSHOME)/VPbase/etc/Config.mk
+#include $(VPLIBSHOME)/VPcoreio/etc/Config.mk
+#include $(VPLIBSHOME)/VPbase/etc/Config.mk
 
 # Finally include the sub-makefiles for external dependencies
-include $(VPLIBSHOME)/etc/Config_alloptional.mk
+#include $(VPLIBSHOME)/etc/Config_alloptional.mk
 
 ## add local definitions that you want to use for test purposes:
 ## Use the lines below to pick up the library and header files
@@ -61,5 +61,5 @@ LOCALFLGS	+=
 LOCALINCL	+= #-I/home/ograu/project/VPbase/include
 LOCALLIBS	+= #/home/ograu/project/VPbase/src/libVPbase.a -ltiff -ljpeg
 
-include $(VPLIBSHOME)/etc/common_example.mk
+#include $(VPLIBSHOME)/etc/common_example.mk
 
