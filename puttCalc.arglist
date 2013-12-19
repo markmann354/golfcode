@@ -1,6 +1,8 @@
 cfn:FILENAME:0:"config file":"The config file":""
 fn:STRING:0:"file name":"File name for single movie file":"."
+fn2:STRING:0:"file name2":"File name for single movie file":"."
 patt:STRING:0:"file pattern":"Pattern for image files":"."
+patt2:STRING:0:"file pattern2":"Pattern for image files":"."
 campatt:STRING:0:"camera file pattern":"Pattern for camera files":"."
 cam:STRING:0:"camera file":"File for static camera parameter":""
 start:INT:0:"start":"First image number":0:0:1000000
