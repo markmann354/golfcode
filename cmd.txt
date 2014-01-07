@@ -1,1 +1,1 @@
-g++ puttCalc.h puttCalc.cc puttCalc_parse.cc -o puttCalc -lvpbase -lvpcoreio -lvpip -lvpestimate -lvpimageproc -lvputil -lvpgeom -lvptexturing -lvpgl  
+g++ puttCalc.h puttCalc.cc puttCalc_parse.cc -o puttCalc -lvpbase -lvpcoreio -lvpip -lvpestimate -lvpimageproc -lvputil -lvpgeom -lvptexturing -lvpgl -lopenmp

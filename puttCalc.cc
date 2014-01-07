@@ -316,7 +316,7 @@ ltestarg( _puttCalc_parameter &para)
     char buffer3 [4];
     char buffer4 [4];
 
-    int imgDiff = 68;
+    int imgDiff = 3; //68;
 
     bool input = false;
 
@@ -375,8 +375,8 @@ ltestarg( _puttCalc_parameter &para)
 
     err  = picseq.Open( buf1 );
     err2 = picseq2.Open( buf2 );
-    err3 = picseq3.Open( "-patt /home/markma/Videos/idiotfilming/cam1green.tiff -start 1 -end 1" );
-    err4 = picseq4.Open( "-patt /home/markma/Videos/idiotfilming/cam2green.tiff -start 1 -end 1");
+    err3 = picseq3.Open( "-patt /home/markma/Pictures/WentExample1/green.tiff -start 1 -end 1" );
+    err4 = picseq4.Open( "-patt /home/markma/Pictures/WentExample2/green.tiff -start 1 -end 1");
 
     //cout << "*************************************" << endl;
     char *bufft = para.patt;
